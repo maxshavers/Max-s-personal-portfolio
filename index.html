@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>V. Maxwell Shavers | Computer Science @ UVA</title>
+  <meta name="description" content="V. Maxwell Shavers — Computer Science student at UVA. Full-stack developer building Django + REST APIs and JavaScript frontends." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="nav-container">
+      <span class="logo">VS</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="assets/Max Shavers CS Resume 1.2026.pdf" target="_blank" rel="noopener">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content hero-layout">
+      <img src="assets/Shavers,Max HeadShot.jpg" alt="V. Maxwell Shavers headshot" class="headshot" />
+
+      <div>
+        <h1>V. Maxwell Shavers</h1>
+        <p class="subtitle">Computer Science @ UVA • Full-Stack Developer</p>
+
+        <p class="hero-text">
+          I build clean, reliable web apps — from Django REST APIs to frontend experiences in JavaScript.
+          Currently seeking internship opportunities and building projects that ship.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View Projects</a>
+
+          <a
+            href="https://www.linkedin.com/in/v-maxwell-shavers-1507b5264/"
+            target="_blank"
+            rel="noopener"
+            class="btn outline"
+          >
+            LinkedIn
+          </a>
+
+          <a href="assets/Max Shavers CS Resume 1.2026.pdf" target="_blank" rel="noopener" class="btn outline">Resume</a>
+
+          <a href="mailto:gdn9hc@virginia.edu" class="btn outline">Email</a>
+        </div>
+
+        <p class="mini">
+          Richmond, VA • <a href="tel:18043969822">804-396-9822</a> • <a href="mailto:gdn9hc@virginia.edu">gdn9hc@virginia.edu</a>
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I’m a Computer Science student at the University of Virginia (Expected May 2026).
+      I’ve built and tested frontend features to improve user engagement, applied UX principles to streamline workflows,
+      and supported nonprofit strategy through data-driven analysis and recommendations.
+    </p>
+
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>Focus</h3>
+        <p>Backend systems, REST APIs, full-stack web apps, and clean UI/UX.</p>
+      </div>
+
+      <div class="about-card">
+        <h3>Tools</h3>
+        <p>Python, Java, JavaScript, HTML/CSS, C, SQL, Django, Linux, VS Code, Netlify.</p>
+      </div>
+
+      <div class="about-card">
+        <h3>Leadership</h3>
+        <p>UVA NSBE Treasurer • MLT Career Prep Fellow • UVA Peer Advisor.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+      <a class="project-card" href="projects/impact-dashboard.html">
+        <h3>Community Impact Dashboard</h3>
+        <p>
+          Full-stack Django + REST app to manage events, attendees, and donations with a live dashboard.
+        </p>
+        <span class="project-link">View Case Study →</span>
+      </a>
+
+      <a class="project-card" href="projects/another-project.html">
+        <h3>Mortal Kombat (Python)</h3>
+        <p>
+          Multiplayer arcade-style game built with Python and Pygame for inputs + graphics.
+        </p>
+        <span class="project-link">View Case Study →</span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 V. Maxwell Shavers</p>
+  </footer>
+
+  <script src="app.js"></script>
+
+  <!-- Small extra styles that match your existing CSS theme -->
+  <style>
+    .mini {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .mini a { color: var(--muted); }
+    .mini a:hover { color: var(--text); }
+
+    .about-grid {
+      margin-top: 18px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+    }
+    .about-card {
+      background: var(--panel);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 14px;
+      padding: 16px;
+    }
+    .about-card h3 {
+      margin: 0 0 8px;
+      font-size: 14px;
+      color: var(--text);
+    }
+    .about-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</body>
+</html>
